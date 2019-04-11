@@ -6,19 +6,20 @@ const Script = bsv.Script
 const fs = require('fs')
 
 // utxo의 txid
-const txId = '48728f27c069b663ddc273f3ce3ba03d95d21127f303ffa6dde5876d37c45b6f'
+const txId = '0c35d13465758ca223eabb15fa6a236a678a2a6f68d88ac667824fd4e64e0024'
 const outputIndex = 1
-const satoshis = 3000000
+const satoshis = 43000000
 
 // from address + private key
-const fromAddress = '1NPMmmb7dgVaVE1rTJEqZBWhpQ5FsiESSd'
-const privkeySet = 'L1nkbdBz6iAVwMQa1myQPTq8sf3cFUSeLJZXdkVWsMiEyv6V9GUE'
+const fromAddress = 'n4pKQauaywwsooZpqQsBA7moTUMb4qNBqj'
+const privkeySet = 'cVnpKJPYfTAAtbqahjPsrz6sjuVyp25itkwJ5H4fg7CLS4DGDivY'
 
 // to address info
-const toAddress = '1LRtNbdRfsShox9BFR6WHWX2Bba6QWRJrx'
-const amount = 2999600
+const toAddress = 'mqYoezdaPQVihdRSpquCnBG82m8MwF6i3T'
+const amount = 30000000
 const fee = 400
 
+// #1 BitDB
 const utxos = {
     address: fromAddress,
     txId: txId,
